@@ -1,14 +1,14 @@
 {
-      "name": "Romeo",
+      "name": "Juliet",
       "description": "A Superb Telegram Group Manager Bot",
       "logo": "https://telegra.ph/file/de271f11ee1047870050a.jpg",
       "keywords": [
          "Telegram",
          "Group",
          "Manager",
-         "Romeo"
+         "Juliet"
       ],   
-   "repository": "https://github.com/madboy482/Romeo",
+   "repository": "https://github.com/madboyop/Juliet",
    "addons": [
       {
          "options": {
@@ -48,9 +48,9 @@
          "value": "Warning_MadBoy_is_Here"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit. But be like: Romeo1BotSupport. If this ever points to Romeo support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit. Username without @",
          "required": true,
-         "value": "Romeo1BotSupport"
+         "value": "Romeo_JulietBotSupport"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -75,7 +75,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Romeo support then keep the current IDs here at they are and add yours.",
          "required": false,
-         "value": "1107922726"
+         "value": "1107922726 1076632911"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
