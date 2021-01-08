@@ -75,7 +75,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ROMEO_IMG = "https://telegra.ph/file/929a3cffe8935f0a445e6.jpg"
+JULIET_IMG = "https://telegra.ph/file/929a3cffe8935f0a445e6.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -184,7 +184,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
-                ROMEO_IMG,
+                JULIET_IMG,
                 PM_START_TEXT.format(
                     escape_markdown(first_name),
                     escape_markdown(context.bot.first_name)),
@@ -193,17 +193,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Romeo to your group",
+                            text="☑️ Add Juliet to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Channel",
-                             url=f"https://t.me/Romeo1Bot_Support"),
+                             url=f"https://t.me/Romeo_JulietBot_Support"),
                          InlineKeyboardButton(
                              text="Support Chat 🚑",
-                             url="https://t.me/Romeo1BotSupport")
+                             url="https://t.me/Romeo_JulietBotSupport")
                      ],
                      [
                          InlineKeyboardButton(
@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/madboy482/Romeo")
+                             url="https://github.com/madboyop/Juliet")
                      ]]))
     else:
         update.effective_message.reply_text(
